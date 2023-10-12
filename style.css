@@ -12,11 +12,9 @@
 html{
   font-size: 62.5%;
 }
-
 section{
   padding: 2rem 9%;
 }
-
 .header{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -30,7 +28,6 @@ section{
 .header .logo img{
   height: 6rem;
 }
-
 .header .navbar #close{
   display: none;
   position: absolute;
@@ -40,24 +37,20 @@ section{
   font-size: 3rem;
   color: #fff;
 }
-
 .header .navbar a{
   font-size: 2rem;
   margin-right: 2rem;
   color: #fff;
 }
-
 .header .navbar a:hover{
   color: #d3ad7f;
 }
-
 .header #menu{
   display: none;
   cursor: pointer;
   font-size: 2.5rem;
   color: #fff;
 }
-
 .home{
   display: flex;
   flex-wrap: wrap;
@@ -115,12 +108,10 @@ section{
   height: 300%;
 }
 
-
 @media (max-width:991px){
   html{
     font-size: 55%;
   }
-
   .header{
     padding: 2rem;
   }
